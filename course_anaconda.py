@@ -1,8 +1,8 @@
-course = 'Anaconda 101: Getting Started with Python'
+course = '**Anaconda 101: Getting Started with Python**'
 
 ############################################
 
-outline_1 = '''OUTLINE: LESSON 01
+outline_1 = '''**OUTLINE: LESSON 01**
 
 --Introduction to Anaconda
 
@@ -20,7 +20,7 @@ outline_1 = '''OUTLINE: LESSON 01
 
 ############################################
 
-outline_2 = '''OUTLINE: LESSON 02
+outline_2 = '''**OUTLINE: LESSON 02**
 
 --Installing and Setting Up Anaconda
 
@@ -34,7 +34,7 @@ outline_2 = '''OUTLINE: LESSON 02
 
 ############################################
 
-outline_3 = '''OUTLINE: LESSON 03
+outline_3 = '''**OUTLINE: LESSON 03**
 
 --Creating and Managing Environments
 
@@ -50,7 +50,7 @@ outline_3 = '''OUTLINE: LESSON 03
 
 ############################################
 
-outline_4 = '''OUTLINE: LESSON 04
+outline_4 = '''**OUTLINE: LESSON 04**
 
 --Working with Jupyter Notebooks
 
@@ -64,7 +64,7 @@ outline_4 = '''OUTLINE: LESSON 04
 
 ############################################
 
-outline_5 = '''OUTLINE: LESSON 05
+outline_5 = '''**OUTLINE: LESSON 05**
 
 --Working with Python in Anaconda
 
@@ -76,7 +76,7 @@ outline_5 = '''OUTLINE: LESSON 05
 
 ############################################
 
-outline_6 = '''OUTLINE: LESSON 06
+outline_6 = '''**OUTLINE: LESSON 06**
 
 --Advanced Anaconda Features
 
@@ -88,7 +88,7 @@ outline_6 = '''OUTLINE: LESSON 06
 
 ############################################
 
-outline_7 = '''OUTLINE: LESSON 07
+outline_7 = '''**OUTLINE: LESSON 07**
 
 -Troubleshooting and Common Issues
 
@@ -98,7 +98,7 @@ outline_7 = '''OUTLINE: LESSON 07
 
 ############################################
 
-lesson_1_1 = '''LESSON 1.1
+lesson_1 = '''**LESSON 1**
 
 What is Anaconda?
 
@@ -108,27 +108,19 @@ Anaconda is a free and open-source distribution of Python and R, designed specif
 
 Anaconda was created by Continuum Analytics in 2012 as a distribution of Python packages for scientific computing, and has since grown to become a widely-used tool for a variety of programming tasks. It is built on top of the Conda package manager, which allows users to easily install and manage packages and environments for their projects. In addition to its core features, Anaconda also provides a number of tools and resources for data science and machine learning, such as Jupyter notebooks, RStudio, and support for cloud-based computing platforms.
 
-Conda is the package manager included with Anaconda. It allows you to easily install and manage packages and environments for your projects. It can install packages from the Anaconda repository as well as from other sources. This makes it very convenient to use, as you don't have to manually download and install packages or worry about compatibility issues.'''
-
-############################################
-
-lesson_1_2 = '''LESSON 1.2
+Conda is the package manager included with Anaconda. It allows you to easily install and manage packages and environments for your projects. It can install packages from the Anaconda repository as well as from other sources. This makes it very convenient to use, as you don't have to manually download and install packages or worry about compatibility issues.
 
 The Anaconda Navigator is a graphical user interface for managing packages and environments. It allows you to launch installed packages, create and manage environments, and install new packages. It also provides access to a number of tools and resources for data science and machine learning, such as Jupyter notebooks and RStudio. The Anaconda Navigator makes it easy to get started with Anaconda, as you don't have to use the command line to manage packages and environments.
 
 Anaconda comes with a large number of pre-installed packages, including many commonly used for data science and machine learning. This can save you time and effort when starting new projects, as you don't have to manually install these packages. Anaconda also supports both Python and R, making it a versatile choice for those who work with both languages.
 
-There are other Python distributions available, such as Miniconda and PyPI. Miniconda is a smaller version of Anaconda that includes only the Conda package manager and a few basic packages. Users can then install additional packages as needed for their projects. This is a good option for those who want a lightweight installation and prefer to only install the packages they need. PyPI (the Python Package Index) is a repository of Python packages that can be installed using the pip package manager. PyPI includes a wide variety of packages, including many that are used for data science and machine learning. However, PyPI does not include tools and resources specifically designed for these fields, such as the Anaconda Navigator or support for cloud-based computing platforms.'''
-
-############################################
-
-lesson_1_3 = '''LESSON 1.3
+There are other Python distributions available, such as Miniconda and PyPI. Miniconda is a smaller version of Anaconda that includes only the Conda package manager and a few basic packages. Users can then install additional packages as needed for their projects. This is a good option for those who want a lightweight installation and prefer to only install the packages they need. PyPI (the Python Package Index) is a repository of Python packages that can be installed using the pip package manager. PyPI includes a wide variety of packages, including many that are used for data science and machine learning. However, PyPI does not include tools and resources specifically designed for these fields, such as the Anaconda Navigator or support for cloud-based computing platforms.
 
 In summary, Anaconda is a powerful tool for data science and machine learning, with a large package ecosystem and a number of resources specifically designed for these fields. It also has an active community of users with extensive documentation and support resources available. Using Anaconda can save you time and effort when setting up your projects, and its package manager, Conda, makes it easy to install and manage packages and environments. The Anaconda Navigator provides a user-friendly interface for managing packages and environments, and gives you access to a variety of tools and resources for data science and machine learning. Whether you are a beginner or an experienced programmer, Anaconda has something to offer. So why wait? Get started with Anaconda today and see how it can help you with your projects! Happy coding!'''
 
 ############################################
 
-lesson_2_1 = '''LESSON 2.1
+lesson_2 = '''**LESSON 2**
 
 Installing and Setting Up Anaconda
 
@@ -143,25 +135,21 @@ Install Anaconda on a cloud-based computing platform (such as Amazon Web Service
 Use Anaconda via a web browser (using Anaconda Cloud or Binder)
 For most users, installing Anaconda on their local machine is the easiest option. Here is how to do it on different operating systems:
 
-Windows
+**Windows**
 
 Go to the Anaconda website (https://www.anaconda.com/) and click the "Download" button.
 Select the "Windows" tab and choose the installer for the latest version of Anaconda.
 
 Run the installer and follow the prompts to complete the installation.
 
-macOS
+**macOS**
 
 Go to the Anaconda website (https://www.anaconda.com/) and click the "Download" button.
 Select the "macOS" tab and choose the installer for the latest version of Anaconda.
 
-Double-click the downloaded installer file and follow the prompts to complete the installation.'''
+Double-click the downloaded installer file and follow the prompts to complete the installation.
 
-############################################
-
-lesson_2_2 = '''LESSON 2.2
-
-Linux
+**Linux**
 
 Go to the Anaconda website (https://www.anaconda.com/) and click the "Download" button.
 Select the "Linux" tab and choose the installer for the latest version of Anaconda.
@@ -176,11 +164,7 @@ Now that you know how to install Anaconda, let's talk about customizing the inst
 
 Installation location: You can choose where Anaconda is installed on your system. By default, it is installed in the root directory, but you can choose a different location if you prefer.
 
-Package selection: You can choose which packages to install with Anaconda. By default, Anaconda installs a large number of packages, but you can select a smaller subset of packages if you wish.'''
-
-############################################
-
-lesson_2_3 = '''LESSON 2.3
+Package selection: You can choose which packages to install with Anaconda. By default, Anaconda installs a large number of packages, but you can select a smaller subset of packages if you wish.
 
 Python version: You can choose which version of Python to install with Anaconda. Anaconda supports multiple versions of Python, so you can choose the one that best fits your needs.
 
@@ -188,7 +172,7 @@ That's it! You now know how to download and install Anaconda, set it up on diffe
 
 ############################################
 
-lesson_3_1 = '''LESSON 3.1
+lesson_3 = '''**LESSON 3**
 
 Creating and Managing Environments
 
@@ -204,10 +188,7 @@ Type the following command to create a new environment with a specific Python ve
 Type the following command to activate the environment: `conda activate myenv` (replace "myenv" with the name of the environment you created).
 To deactivate an environment, simply type `conda deactivate` in the terminal or command prompt window.
 
-You can also use the Conda command-line interface to install packages in an environment. To do this, first activate the environment, then use the conda install command followed by the package name. For example, to install the NumPy package in the "myenv" environment, you would type conda install numpy in the terminal or command prompt window.'''
-
-############################################
-lesson_3_2 = '''LESSON 3.2
+You can also use the Conda command-line interface to install packages in an environment. To do this, first activate the environment, then use the conda install command followed by the package name. For example, to install the NumPy package in the "myenv" environment, you would type conda install numpy in the terminal or command prompt window.
 
 If you prefer to use a graphical user interface, you can also create and activate environments using the Anaconda Navigator. Here is how:
 
@@ -223,64 +204,23 @@ Finally, you can also export and import environments using the Conda command-lin
 That's it! You now know how to create and manage environments using the Conda command-line interface and the Anaconda Navigator, as well as how to install packages in environments and export and import environments. Environments are a powerful tool for managing package dependencies and Python versions in multiple projects, and we hope this lesson has helped you get started with using them. Happy coding!'''
 
 ############################################
-lesson_4_1 = '''LESSON 4.1
 
-'''
-
-############################################
-lesson_4_2 = '''LESSON 4.2
-
-'''
-
-############################################
-lesson_4_3 = '''LESSON 4.3
-
-'''
-
-############################################
-lesson_5_1 = '''LESSON 5.1
-
-'''
-
-############################################
-lesson_5_2 = '''LESSON 5.2
-
-'''
-
-############################################
-lesson_5_3 = '''LESSON 5.3
-
-'''
-
-############################################
-lesson_6_1 = '''LESSON 6.1
-
-'''
-
-############################################
-lesson_6_2 = '''LESSON 6.2
-
-'''
-
-############################################
-lesson_6_3 = '''LESSON 6.3
-
-'''
-
-############################################
-lesson_7_1 = '''LESSON 7.1
-
-'''
-
-############################################
-lesson_7_2 = '''LESSON 7.2
-
-'''
-
-############################################
-lesson_7_3 = '''LESSON 7.3
-
+lesson_4 = '''**LESSON 4**
 '''
 
 ############################################
 
+lesson_5 = '''**LESSON 5**
+'''
+
+############################################
+
+lesson_6 = '''**LESSON 6**
+'''
+
+############################################
+
+lesson_7 = '''**LESSON 7**
+'''
+
+############################################
