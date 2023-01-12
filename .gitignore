@@ -6,6 +6,9 @@ __pycache__/
 # Private folder
 private/
 
+# Jupyter Notebook environment
+STC-Learn2Code.ipynb
+
 # C extensions
 *.so
 
