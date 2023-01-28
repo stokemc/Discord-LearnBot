@@ -1,75 +1,79 @@
-conda_course = 'Anaconda 101: Getting Started with Python'
+COURSE
+------
+Anaconda 101: Getting Started with Python
+-----------------------------------------
 
-outline_1 = '''
-**Overview Lesson 01:**
+OVERVIEW
+--------
 
-**Introduction to Anaconda**
+LESSON 01
+---------
+
+--Introduction to Anaconda
 What is Anaconda
 A brief overview of Anaconda and its history
 The main features of Anaconda, including the package manager Conda and the Anaconda Navigator
 The benefits of using Anaconda, such as its pre-installed packages and support for multiple languages (Python and R)
 The difference between Anaconda and other Python distributions, such as Miniconda and PyPI
 How Anaconda can be used for data science, machine learning, and other areas of programming
-'''
 
-outline_2 = '''
-**Overview Lesson 02:**
 
-**Installing and Setting Up Anaconda**
+LESSON 02
+---------
+
+--Installing and Setting Up Anaconda
 How to download and install Anaconda
 Setting up Anaconda on different operating systems (Windows, macOS, Linux)
 Setting up Anaconda on cloud-based computing platforms (e.g. Amazon Web Services, Google Cloud Platform)
 Customizing the Anaconda installation
-'''
 
-outline_3 = '''
-**Overview Lesson 03:**
 
-**Creating and Managing Environments**
+LESSON 03
+---------
+
+--Creating and Managing Environments
 What are environments and why are they useful
 Creating and activating environments using the Conda command-line interface
 Creating and activating environments using the Anaconda Navigator
 Installing packages in environments
 Exporting and importing environments
-'''
 
-outline_4 = '''
-**Overview Lesson 04:**
+LESSON 04
+---------
 
-**Working with Jupyter Notebooks**
+--Working with Jupyter Notebooks
 Introduction to Jupyter notebooks
 Creating and running cells in Jupyter notebooks
 Using Jupyter notebooks for data visualization and exploration
 Sharing and publishing Jupyter notebooks
-'''
 
-outline_5 = '''
-**Overview Lesson 05:**
+LESSON 05
+---------
 
-**Working with Python in Anaconda**
+--Working with Python in Anaconda
 Introduction to Python
 Installing and using Python packages in Anaconda
 Using Python and R together in Anaconda
-'''
 
-outline_6 = '''
-**Overview Lesson 06:**
+LESSON 06
+---------
 
-**Advanced Anaconda Features**
+--Advanced Anaconda Features
 Customizing the Anaconda command-line interface
 Working with Anaconda on a cluster or HPC
 Using Anaconda in a production environment
-'''
 
-outline_7 = '''
-**Overview Lesson 07:**
 
-**Troubleshooting and Common Issues**
+LESSON 07
+---------
+
+Troubleshooting and Common Issues
 Common issues when using Anaconda and how to troubleshoot them
 Tips and best practices for using Anaconda efficiently and effectively
-'''
-Discord-LearnCodeBotDiscord-LearnCodeBotDiscord-LearnCodeBotDiscord-LearnCodeBot
-still_to_format_and_sort = '''
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
 Course: Anaconda 101: Getting Started With Python'.
 Lesson 01
 
@@ -93,7 +97,7 @@ There are other Python distributions available, such as Miniconda and PyPI. Mini
 
 In summary, Anaconda is a powerful tool for data science and machine learning, with a large package ecosystem and a number of resources specifically designed for these fields. It also has an active community of users with extensive documentation and support resources available. Using Anaconda can save you time and effort when setting up your projects, and its package manager, Conda, makes it easy to install and manage packages and environments. The Anaconda Navigator provides a user-friendly interface for managing packages and environments, and gives you access to a variety of tools and resources for data science and machine learning. Whether you are a beginner or an experienced programmer, Anaconda has something to offer. So why wait? Get started with Anaconda today and see how it can help you with your projects! Happy coding!
 
-
+------------------------------------------------------------------------------------------------------
 
 Course: Anaconda 101: Getting Started With Python'.
 Lesson 02
@@ -140,7 +144,7 @@ Python version: You can choose which version of Python to install with Anaconda.
 
 That's it! You now know how to download and install Anaconda, set it up on different operating systems and cloud-based computing platforms, and customize the installation. With Anaconda, you will have access to a powerful toolkit for data science and machine learning, as well as a large package ecosystem and a number of resources specifically designed for these fields. Happy coding!
 
-
+-----------------------------------------------------------------------------------------------
 
 LESSON 03
 
@@ -172,7 +176,7 @@ Finally, you can also export and import environments using the Conda command-lin
 
 That's it! You now know how to create and manage environments using the Conda command-line interface and the Anaconda Navigator, as well as how to install packages in environments and export and import environments. Environments are a powerful tool for managing package dependencies and Python versions in multiple projects, and we hope this lesson has helped you get started with using them. Happy coding!
 
-
+-----------------------------------------------------------------------------------------------------
 
 LESSON 4
 
@@ -237,7 +241,7 @@ Conclusion
 
 In this lesson, we have introduced you to Jupyter notebooks and showed you how to create and run cells, use Jupyter notebooks for data visualization and exploration, and share and publish Jupyter notebooks. Jupyter notebooks are a powerful tool for data science and machine learning, and we hope this lesson has helped you get started with using them. Happy coding!
 
-
+-----------------------------------------------------------------------------------------------
 
 LESSON 05
 
@@ -309,7 +313,7 @@ Conclusion
 
 In this lesson, you learned how to work with Python in Anaconda, including how to install and use packages, and how to use Python and R together in the same environment. You are now ready to start using Python in your data science and machine learning projects. Happy coding!
 
-
+-------------------------------------------------------------------------------------------------
 
 LESSON 06
 
@@ -349,11 +353,11 @@ Consider using a package repository: A package repository is a centralized place
 Conclusion
 In summary, Anaconda is a powerful tool for managing packages and environments, and for deploying and managing Python and R applications. It can be used in a variety of settings, from development and testing to production, and can help you ensure that your applications are consistent, reproducible, and scalable. By customizing the CLI, using Anaconda on a cluster or HPC, and deploying Anaconda in a production environment, you can take advantage of all that Anaconda has to offer and work more efficiently and effectively.
 
-
+-----------------------------------------------------------------------------------------------
 
 
 LESSON 07
-
+---------
 
 Troubleshooting and Common Issues
 
@@ -415,4 +419,18 @@ Profile your code: Use tools such as the Python profiler or the cProfile module 
 Conclusion
 
 In summary, troubleshooting and resolving issues when using Anaconda is an important part of the data science workflow. By understanding how to debug errors, resolve dependency issues, and manage environments and packages effectively, you can ensure that your projects are reproducible, scalable, and performant. By following best practices for using Anaconda efficiently and effectively, you can also improve your productivity and streamline your workflow. Happy coding!
-'''
+
+
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

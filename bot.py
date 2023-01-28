@@ -1,24 +1,31 @@
 # website: http://stoketech.club - email: stoke@stoketech.club
 import discord
-import course_anaconda
+from course_anaconda import *
 from private.config import token
 
 print("...imports successful...")
+working = False
+file_name = token
+client = discord.Client(intents=discord.Intents.all())
+
+@client.event
+async def on_ready():
+    print(f'{client.user} reporting for duty Sir! ')
 
 # SET OUR VARIABLES FOR EASIER DISPLAY IN BOT...
-outline1 = (course_anaconda.course +'\n\n' + course_anaconda.outline_1)
-outline2 = (course_anaconda.course +'\n\n' + course_anaconda.outline_2)
-outline3 = (course_anaconda.course +'\n\n' + course_anaconda.outline_3)
-outline4 = (course_anaconda.course +'\n\n' + course_anaconda.outline_4)
-outline5 = (course_anaconda.course +'\n\n' + course_anaconda.outline_5)
-outline6 = (course_anaconda.course +'\n\n' + course_anaconda.outline_6)
-outline7 = (course_anaconda.course +'\n\n' + course_anaconda.outline_7)
-lesson1 = (course_anaconda.course +'\n' + course_anaconda.lesson_1)
-lesson2 = (course_anaconda.course +'\n' + course_anaconda.lesson_2)
-lesson3 = (course_anaconda.course +'\n' + course_anaconda.lesson_3)
-lesson4 = (course_anaconda.course +'\n' + course_anaconda.lesson_4)
-lesson5 = (course_anaconda.course +'\n' + course_anaconda.lesson_5)
-lesson6 = (course_anaconda.course +'\n' + course_anaconda.lesson_6)
-lesson7 = (course_anaconda.course +'\n' + course_anaconda.lesson_7)
+overview_01 = (conda_course + '\n\n' + outline_1)
+overview_02 = (conda_course + '\n\n' + outline_2)
+overview_03 = (conda_course + '\n\n' + outline_3)
+overview_04 = (conda_course + '\n\n' + outline_4)
+overview_05 = (conda_course + '\n\n' + outline_5)
+overview_06 = (conda_course + '\n\n' + outline_6)
+overview_07 = (conda_course + '\n\n' + outline_7)
+lesson1 = (conda_course + '\n' + lesson_1)
+lesson2 = (conda_course + '\n' + lesson_2)
+lesson3 = (conda_course + '\n' + lesson_3)
+lesson4 = (conda_course + '\n' + lesson_4)
+lesson5 = (conda_course + '\n' + lesson_5)
+lesson6 = (conda_course + '\n' + lesson_6)
+lesson7 = (conda_course + '\n' + lesson_7)
 
-print(lesson1)
+client.run(token)
